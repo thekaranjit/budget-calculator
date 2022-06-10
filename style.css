@@ -1,6 +1,33 @@
+/*
 #data-container{
   color: red;
 
 }
 
 .cp-text{ color: rgba(0,0,0,.7); text-shadow: 0 1px rgba(255, 255, 255, 0.1);}
+  */
+
+body {
+  background-color: LightBlue;
+}
+
+ #header{
+   border-style: dashed;
+   padding: 1px;
+    color: red;
+    font-style: normal;
+    font-family: "Sans-serif";
+    font-size: 30px;
+    text-align: center;
+    border:
+  }
+
+  .footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+  }

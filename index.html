@@ -5,34 +5,46 @@
     <title>Budget</title>
 
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
 
   </head>
   <body>
 
 <div id="header">
 
-  <!-- IDEA:  -->
+<h1>50-30-20 Budget</h1>
 
 </div>
 
-<div id="data-container">
+<div id="take-data">
 
+	<h4 id="yincome">Your Yearly income after deduction,</h4>
+	<input id="yearly-income" type="number"/>
 
-<!-- IDEA: https://www.w3schools.com/tags/tag_input.asp -->
+  <h4 id="needtext">Enter your monthly needs, like <b>shoping, food<b> etc.</h4>
+	<input id="need" type="number"/>
 
-<form action="https://www.lipsum.com/">
-  <label for="fname">First name:</label>
-  <input type="text" id="fname" name="fname"><br><br>
-  <label for="lname">Last name:</label>
-  <input type="text" id="lname" name="lname"><br><br>
-  <input type="submit" value="Submit">
-</form>
+  <h4 id="inv">Your total investment <b>Mutual funds, shares & Other<b>.</h4>
+  <input id="invest" type="number"/>
+
+  <h4 id="fixtext">Your Fix expenses <b>Loan and EMI<b>.</h4>
+	<input id="fix" type="number"/> <br><br>
+
+  <button id="butt" onclick="getresult()" > Generate Budget </button>
+
+  <div id="result"></div>
+
 
 </div>
 
-<p class="cp-text">
-    © Copyright 2015 Company Name. All rights reserved.
-</p>
+
+
+
+
+<!-- Footer -->
+
+<div class="footer">This application is created by <strong>Karanjit Singh</strong>. All rights reserved.</div>
+
 
   </body>
 </html>
