@@ -8,19 +8,79 @@
   */
 
 body {
-  background-color: LightBlue;
+  font-family: 'Share Tech', sans-serif;
+
+      color: white;
+
+
+
+     margin: 0;
+      width: 100vw;
+      height: 100vh;
+
+      background-color: #160C1B;
+
 }
 
  #header{
    border-style: dashed;
-   padding: 1px;
-    color: red;
+
+    color: #FFFEFB;
     font-style: normal;
     font-family: "Sans-serif";
     font-size: 30px;
     text-align: center;
-    border:
+    text-shadow: 2px 2px #454b52;
+
   }
+
+  #yincome {
+    color: #FFFEFB;
+  }
+
+
+
+#needtext {
+  color: #FFFEFB;
+}
+
+
+
+#inv {
+  color: #FFFEFB;
+}
+
+
+
+#fixtext {
+  color: #FFFEFB;
+}
+
+
+
+#butt {
+  padding: 5px 10px;
+
+  background: #fff;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 5px;
+}
+
+#res {
+  padding: 5px 10px;
+
+  background: #fff;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 5px;
+}
 
   .footer {
     position: absolute;
@@ -28,6 +88,7 @@ body {
     bottom: 0;
     left: 0;
     padding: 1rem;
-    background-color: #efefef;
+    background-color: #160C1B;
     text-align: center;
+    border-style: solid;
   }
