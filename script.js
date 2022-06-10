@@ -1,4 +1,4 @@
-function getresult(){
+function getResult(){
 
       let yinc = document.getElementById('yearly-income').value;
 
@@ -8,6 +8,6 @@ function getresult(){
 
       let ifix = document.getElementById('fix').value;
 
-      document.getElementById("result").innerHTML=yinc;
-
+      // document.getElementById("result").innerHTML=yinc;
+      console.log(yinc);
 }
